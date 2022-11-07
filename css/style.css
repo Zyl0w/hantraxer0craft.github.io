@@ -7,6 +7,24 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #eebbc3;
+    background: #f1a9b4;
     border-radius: 10px;
+}
+
+body {
+    background-color: #eebbc3;
+}
+
+.title {
+    position: initial;
+    text-align: center;
+    padding: 1em;
+    border: 0.5em solid black;
+    width  : 4em;
+    height : 4em;
+    border-radius: 10%;
+    background-image: url('../img/bg.gif');
+    background-size: cover;
+    -webkit-background-clip: text;
+    color: transparent;
 }
