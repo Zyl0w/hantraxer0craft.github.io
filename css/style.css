@@ -37,6 +37,10 @@ footer {
   box-sizing: border-box;
 }
 
+*:visited{
+	text-decoration: none; 
+	color: orange; 
+}
 
 .navMenu {
   position: absolute;
