@@ -14,34 +14,28 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/style.scss">
+        <script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
     </head>
 <body>
 
-    <nav class="navMenu">
-            <a href="#">Home</a>
-            <a href="#">Blog</a>
-            <a href="#">Work</a>
-            <a href="#">About</a>
-            <div class="dot"></div>
-    </nav>
-	
-	<div class="background-one">
-  <div class="link-container">
-    <a class="link-one" href="https://jhancock532.github.io/link-hover-effects/">Thr0e</a>
-  </div>
-</div>
-<div class="background-two link-container">
-  <a class="link-two" href="https://jhancock532.github.io/link-hover-effects/">Fancy</a>
-</div>
-<div class="background-three link-container">
-  <a class="link-three" href="https://jhancock532.github.io/link-hover-effects/">Links</a>
-</div>
-	
-    <h1 class="title">Hello World</h1>
-	
+    <header>
+        <input class="menu-icon" type="checkbox" id="menu-icon" name="menu-icon"/>
+        <label for="menu-icon"></label>
+        <nav class="nav"> 		
+            <ul class="pt-5">
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Studio</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <footer>
         <div class="footer-copyright text-center">&copy; Developed with ❤️</i> by
-            <a href="https://hantraxer0craft.github.io/" class="white-text" target="_blank">hantraxer0craft</a>.
+            <a href="https://hantraxer0craft.github.io/" class="link link--metis" target="_blank">hantraxer0craft</a>.
+            <a href="./t.html"> * </a> 
             </div>
     </footer>
 </body>
