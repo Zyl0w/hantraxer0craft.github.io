@@ -16,8 +16,27 @@
         <link rel="stylesheet" href="./css/style.css">
         <link rel="stylesheet" href="./css/style.scss">
         <script type="text/javascript" src="./js/intro.js"></script>
+        <style>
+            body {
+              padding: 50px;
+              background-image: url('./img/bg-white.png');
+              color: black;
+              font-size: 25px;
+            }
+            
+            .dark-mode {
+              background-image: url('./img/bg-black.png');
+              color: white;
+            }
+
+            button {
+                right: 32px;
+                bottom: 32px;
+                left: 0;
+            }
+            </style>
     </head>
-    <body>
+    <body class="dark-mode">
         <header>
             <input class="menu-icon" type="checkbox" id="menu-icon" name="menu-icon"/>
             <label for="menu-icon"></label>
@@ -33,6 +52,8 @@
             </nav>
         </header>
 
+        <button onclick="myFunction()">Toggle dark mode</button>
+
         <footer>
             <div class="footer-copyright text-center">&copy; Developed with ❤️</i> by
                 <a href="https://hantraxer0craft.github.io/" class="link link--metis" target="_blank">hantraxer0craft</a>.
@@ -40,4 +61,10 @@
                 </div>
         </footer>
     </body>
+    <script>
+        function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
+    </script>
 </html>
