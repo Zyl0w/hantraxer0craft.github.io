@@ -23,6 +23,10 @@ body {
 }
 
       /*dark theme*/
+      :root{
+        --bs-dark: #212529;
+      }
+
   .theme-container {
   width: 55px;
   height: 55px;
