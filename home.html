@@ -14,20 +14,11 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./css/style.css">
-        <link rel="stylesheet" href="./css/style.scss">
-        <script src="./js/index.js"></script>
+        <link rel="stylesheet" href="./css/style4.css">
     </head>
 <body>
 
     <h1 class="text">Hello</h1>
-    <div class="loader">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-        <div class="bar4"></div>
-        <div class="bar5"></div>
-        <div class="bar6"></div>
-      </div>
 
             <header>
             <input class="menu-icon" type="checkbox" id="menu-icon" name="menu-icon"/>
@@ -44,6 +35,10 @@
             </nav>
         </header>
 
+        <div class="theme-container shadow-dark">
+            <img id="theme-icon"    src="https://www.uplooder.net/img/image/2/addf703a24a12d030968858e0879b11e/moon.svg" alt="ERR">
+        </div>
+
         <footer>
             <div class="footer-copyright text-center">&copy; Developed with ❤️</i> by
                 <a href="https://hantraxer0craft.github.io/" class="link link--metis" target="_blank">hantraxer0craft</a>.
@@ -52,25 +47,5 @@
         </footer>
 
 </body>
-
-<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
-<script>
-  const options = {
-  bottom: '32px', // default: '32px'
-  right: '32px', // default: '32px'
-  left: 'unset', // default: 'unset'
-  time: '1s', // default: '0.3s'
-  mixColor: '#fff', // default: '#fff'
-  backgroundColor: '#100f2c',  // default: '#fff'
-  buttonColorDark: '#fff',  // default: '#100f2c'
-  buttonColorLight: '#100f2c', // default: '#fff'
-  saveInCookies: false, // default: true,
-  label: '☀️', // default: ''
-  autoMatchOsTheme: true // default: true
-}
-
-const darkmode = new Darkmode(options);
-darkmode.showWidget();
-
-</script>
+<script src="./js/index.js"></script>
 </html>
