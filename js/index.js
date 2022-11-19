@@ -30,7 +30,7 @@ var theme = "dark";
       themeIcon.classList.remove("change");
     }, 300);
     themeIcon.classList.add("change");
-    themeIcon.src = sun;
+    themeIcon.src = moon;
   }
   function setDark() {
     root.style.setProperty("--bs-dark", "#212529");
@@ -40,5 +40,5 @@ var theme = "dark";
       themeIcon.classList.remove("change");
     }, 300);
     themeIcon.classList.add("change");
-    themeIcon.src = moon;
+    themeIcon.src = sun;
   }
